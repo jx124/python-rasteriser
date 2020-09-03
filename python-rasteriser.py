@@ -56,8 +56,6 @@ def convert_to_raster(vertex_world, world_to_camera, l, r, t, b, near, image_wid
 
     return np.array([vertex_raster_x, vertex_raster_y, vertex_raster_z])
 
-
-
 focal_length = 35.
 film_aperture_width = 0.980
 film_aperture_height = 0.735
